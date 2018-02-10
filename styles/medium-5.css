@@ -1,0 +1,25 @@
+@media only screen and (min-width: 37.5em) {
+  /* Only CSS rules that need to be changed to meet the layout needs from small to medium go in here */
+
+
+  
+nav button { display:none; }  /* hamburger button does not need to be shown */
+    
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+}
+    
+nav ul li { display: inline;}
+    
+main section img { width: 62.666%; }
+  
+section.forecast { display: inline-table; }  
+    
+article p.town-article img { width: 62.666%; float:right; }  
+
+footer {
+    text-align: center;
+    display: block;
+}
