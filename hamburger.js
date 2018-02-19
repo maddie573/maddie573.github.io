@@ -1,5 +1,5 @@
 function toggleHam() {
     
-    document.getElementsByClassName("navigation")
-    [0].classList.toggle("responsive");
+    console.log(document.getElementById("navigation").classList);
+    document.getElementById("navigation").classList.toggle("hide");
 }
