@@ -3,7 +3,7 @@
 
 
   
-.hamburger { display:none; }  /* hamburger button does not need to be shown */
+nav button.hamburger { display:none; }  /* hamburger button does not need to be shown */
     
 nav ul {
     list-style-type: none;
