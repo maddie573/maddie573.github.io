@@ -21,7 +21,7 @@ header {
     text-align: center;
 }
 header h1 { color: #ffffff; }
-.hamburger {
+nav button {
     display:block; 
     position:absolute; 
     top:2.0rem; 
