@@ -3,11 +3,10 @@
 * { box-sizing: border-box;}  /* This wildcard applies to all elements ensuring a box layout model */
 
 body {
-    font-family: Avenir;
+    font-family: helvetica, sans-serif;
     font-size: 16px;
     color: #b97f6e;
     text-align: center;
-  /* Declare the base font-family - from google font api or other */
 }
 
 header, nav, main, footer {
@@ -22,7 +21,22 @@ header {
     text-align: center;
 }
 header h1 { color: #ffffff; }
-
+nav button.hamburger {
+    display:block; 
+    position:absolute; 
+    top:2.0rem; 
+    right:1.25rem;
+    border: none;
+    background-color: white;
+}
+@media only screen and (max-width:37.5em) {
+    .navigation.responsive { position: relative; }
+    .navigation.responsive li { background-color: "?"; display:block; 
+    width:100%; margin:2px 0;}
+    .navigation { list-style: none; padding-left: 0;}
+    .navigation li { display: none; }
+    
+}
 header img {}
 header .subheading {
     text-align: center;
@@ -32,13 +46,6 @@ header .subheading {
 
 nav {}
 
-nav button.hamburger { 
-    display:block;
-    position:absolute;
-    margin: 2em 2%; 
-    border: none;
-    background-color: white;
-}
 
 nav ul {
     list-style-type: none;
@@ -95,6 +102,7 @@ footer aside {
     display: block;
 }
 
-footer>p {} /* This structure refers to p elements that are direct children of the footer element */
+footer>p {}
+/* This structure refers to p elements that are direct children of the footer element */
 
 /* Other Class Selectors */
