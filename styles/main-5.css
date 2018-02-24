@@ -3,10 +3,17 @@
 * { box-sizing: border-box;}  /* This wildcard applies to all elements ensuring a box layout model */
 
 body {
+<<<<<<< HEAD
+    font-family: helvetica, sans-serif;
+    font-size: 16px;
+    color: #b97f6e;
+    text-align: center;
+=======
     font-size: 16px;
     color: #b97f6e;
     text-align: center;
     font-family: 'PT Sans Narrow', sans-serif;
+>>>>>>> e3fa2710daa6cffd877db637d8897206778742e3
 }
 
 header, nav, main, footer {
@@ -21,7 +28,23 @@ header {
     text-align: center;
 }
 header h1 { color: #ffffff; }
-
+nav button.hamburger {
+    display:block; 
+    position:absolute; 
+    top:2.0rem; 
+    right:1.25rem;
+    border: none;
+    background-color: transparent;
+    color: white;
+}
+@media only screen and (max-width:37.5em) {
+    .navigation.responsive { position: relative; }
+    .navigation.responsive li { background-color: "?"; display:block; 
+    width:100%; margin:2px 0;}
+    .navigation { list-style: none; padding-left: 0;}
+    .navigation li { display: none; }
+    
+}
 header img {}
 header .subheading {
     text-align: center;
@@ -30,6 +53,8 @@ header .subheading {
 }
 
 
+<<<<<<< HEAD
+=======
 
  nav button { 
     display:block;
@@ -41,6 +66,7 @@ header .subheading {
     color: white;
     font-size: 1.6rem;
 }
+>>>>>>> e3fa2710daa6cffd877db637d8897206778742e3
 
 nav ul {
     list-style-type: none;
@@ -101,6 +127,7 @@ footer aside {
     display: block;
 }
 
-footer>p {} /* This structure refers to p elements that are direct children of the footer element */
+footer>p {}
+/* This structure refers to p elements that are direct children of the footer element */
 
 /* Other Class Selectors */
