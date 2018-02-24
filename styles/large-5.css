@@ -1,6 +1,5 @@
 @media only screen and (min-width: 64em) {
   /* Only CSS rules that need to be changed to meet the layout needs from medium to large/wide go in here */
-<<<<<<< HEAD
   
     header button.hamburger { display:none; }
     
@@ -9,10 +8,8 @@
         flex-direction: row;
         justify-content: center;
     }
-=======
     
     nav button { display: none; }
->>>>>>> e3fa2710daa6cffd877db637d8897206778742e3
     
     article p.town-article img { width: 29.333%; }
   
