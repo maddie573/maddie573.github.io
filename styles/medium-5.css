@@ -1,7 +1,11 @@
 @media only screen and (min-width: 37.5em) {
   /* Only CSS rules that need to be changed to meet the layout needs from small to medium go in here */
 
-
+    .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
   
 nav button { display:none; }  /* hamburger button does not need to be shown */
     
@@ -11,15 +15,24 @@ nav ul {
     padding: 10px;
 }
     
-nav ul li { display: inline;}
-    
 main section img { width: 62.666%; }
   
 section.forecast { display: inline-table; }  
     
 article p.town-article img { width: 62.666%; float:right; }  
 
-footer {
-    text-align: center;
-    display: block;
+.footer {
+    display:flex;
+    flex-direction: column;
+}
+    
+    .grid {
+        display:grid;
+        grid-template-columns: 400px 400px;
+        grid-template-rows:300px 300px 300px;
+        grid-gap: 1em;
+        justify-content: center;
+    }
+    
+    img:hover {box-shadow: 5px 5px 10px gray;}
 }
