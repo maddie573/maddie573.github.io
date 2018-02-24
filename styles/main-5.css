@@ -130,8 +130,10 @@ footer>p {}
     border-radius: 3px;
     background-color: #123133;
     padding: 0;
+    justify-content: center;
 }
 
 img:hover {box-shadow: 5px 5px 10px gray;}
+}
 
 /* Other Class Selectors */
