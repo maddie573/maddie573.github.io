@@ -60,6 +60,7 @@ nav ul li {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    background-color: #c1d7ae;
 }
 
 nav ul li a {
@@ -91,7 +92,11 @@ section { background-color:#ffffff; }
 
 main section img { width: 100%; }
 
-section.forecast { display: none; }  
+section.forecast { display: none; }
+
+.town-article {
+    overflow:auto;
+}
 
 article p.town-article img {
   width: 100%; 
@@ -100,9 +105,11 @@ article p.town-article img {
 
 .footer {
     display:flex;
-    flex-direction: column;
-    background-color: #c1d7ae; 
+    flex-direction: column; 
     justify-content: center;
+    background-color:#123133;
+    color:#ffffff;
+    padding:3px; 
 }
 
 .asideFooter {
@@ -113,6 +120,7 @@ article p.town-article img {
     justify-content: center;
     font-size: .9rem;
     padding: 5px;
+    line-height: 5px;
     
 }
 
@@ -130,10 +138,8 @@ footer>p {}
     border-radius: 3px;
     background-color: #123133;
     padding: 0;
-    justify-content: center;
 }
 
 img:hover {box-shadow: 5px 5px 10px gray;}
-}
 
 /* Other Class Selectors */
