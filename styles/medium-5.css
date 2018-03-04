@@ -17,7 +17,10 @@ nav ul {
     
 main section img { width: 62.666%; }
   
-section.forecast { display: inline-table; }  
+section.forecast { 
+    display: inline-table;
+    font-size:1.5rem;
+    }  
     
 article p.town-article img { width: 62.666%; float:right; }  
 
@@ -28,7 +31,7 @@ article p.town-article img { width: 62.666%; float:right; }
     
     .grid {
         display:grid;
-        grid-template-columns: 400px 400px;
+        grid-template-columns: 1fr 1fr;
         grid-template-rows:300px 300px 300px;
         grid-gap: 1em;
         justify-content: center;
