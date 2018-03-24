@@ -15,7 +15,8 @@
     <link href="styles/large-5.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet"><!-- large/wide/desktop views --> 
     </head>
-<body>
+
+    <body>
     <header>
         <img src="images/logo-footer-3.png" alt="The site logo" width="50">
     <h1>The Daily Forecast</h1>
@@ -24,7 +25,7 @@
   <nav>
     <button onclick="toggleHam()">&#9776;</button>
     <ul id="navigation" class="container">
-    	<li class="flexItem"><a href="assignments/index.html">Home</a></li>
+    	<li class="flexItem"><a href="lesson-10/index.html">Home</a></li>
     	<li class="flexItem"><a href="franklin-7.html">Franklin</a></li>
     	<li class="flexItem"><a href="#">Greenville</a></li>
     	<li class="flexItem"><a href="#">Springfield</a></li>
@@ -33,13 +34,12 @@
     </ul>
   </nav>
     </header>
-
-    <section>
-        
-    </section>
+   
+    <main>     
+        <h1><span id="place">Weather</span></h1>
+        <p>Current Temperature: <span id="currentTemp">90</span></p>
     
-        <script>
-            
-        </script>
+        <script type="text/javascript" src="json-weather.js"></script>
+    </main>
     </body>
  </html>
