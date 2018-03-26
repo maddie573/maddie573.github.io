@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 //populate Home page with city info
 var section = document.querySelector('section');
 
@@ -40,7 +39,6 @@ for( var i = 0; i <town.length; i++){
     listItem.textContent = eventList[j];
     myList.appendChild(listItem);
   }
-
   myArticle.appendChild(myH3);
   myArticle.appendChild(myH4);
   myArticle.appendChild(myPara2);
@@ -51,7 +49,6 @@ for( var i = 0; i <town.length; i++){
   section.appendChild(myArticle);
 }}
 }
-=======
 var weatherObject = new XMLHttpRequest();
 
 weatherObject.open('GET', 'http://api.wunderground.com/api/1a0f871dbaa1c468/conditions/q/CA/San_Francisco.json', true);
@@ -64,5 +61,4 @@ weatherObject.onload() = function() {
     
     document.getElementById('place').innerHTML = weatherInfo.current_observation.display_location.full;
     
-} //end of onload
->>>>>>> 7099bea411ca0c2ad8ccc49657dff6c25e334846
+} 
