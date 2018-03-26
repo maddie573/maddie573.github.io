@@ -20,6 +20,12 @@ main section img { width: 62.666%; }
 section.forecast { 
     display: inline-table;
     font-size:1.5rem;
+<<<<<<< HEAD
+    border: solid;
+    border-color: #b97f6e;
+    padding: 10px;
+=======
+>>>>>>> 7099bea411ca0c2ad8ccc49657dff6c25e334846
     }  
     
 article p.town-article img { width: 62.666%; float:right; }  

@@ -1,4 +1,4 @@
-@media only screen and (min-width: 64em) {
+@media only screen and (min-width: 65em) {
   /* Only CSS rules that need to be changed to meet the layout needs from medium to large/wide go in here */
   
     header button.hamburger { display:none; }
@@ -12,11 +12,12 @@
     nav button { display: none; }
     
     article p.town-article img { width: 29.333%; }
+
   
 
 .grid {
         display:grid;
-        grid-template-columns: 400px 400px 400px;
+        grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows:300px 300px 300px;
         grid-row-gap: 1em;
         justify-content: center;

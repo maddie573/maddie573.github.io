@@ -25,7 +25,11 @@ header {
     background-color:#123133;
     text-align: center;
 }
-header h1 { color: #ffffff; }
+header h1 { 
+    color: #ffffff;
+    line-height: 6px;
+    font-size:2.6rem;
+}
 
 header img {
     width: 10%;
@@ -34,6 +38,7 @@ header .subheading {
     text-align: center;
     padding: 5px;
     color: #ffffff;
+    padding:15px;
 }
 
 
@@ -79,8 +84,13 @@ nav ul li a:hover {
 
 nav ul.hide { display: none; }
 
-main {}
-main h2, h3, h4 { color:#b97f6e; }
+main section {
+    font-size: 1rem;
+}
+main h2, h3, h4 { 
+    color:#b97f6e;
+    font-size:2.3rem;
+}
 
 main figure { margin: 0 0 .2rem 2%; width:96%; }
 main figure img { 
@@ -90,17 +100,22 @@ main figure img {
 
 section { background-color:#ffffff; }
 
-main section img { width: 100%; }
+main section img { 
+    width: 100%;
+    padding: 10px;
+}
 
 section.forecast { display: none; }
 
 .town-article {
     overflow:auto;
+    padding:10px;
 }
 
 article p.town-article img {
   width: 100%; 
   margin: 0;
+  padding: 10px;
 }
 
 .footer {
