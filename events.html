@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The Mountain Spoke</title>
+    <meta name="Maddison" content="Website">
+    <meta name="description" content="The Mountain Spoke Bicycles">
+    <!-- external style references in the proper cascading order -->    
+    <!-- Google API font reference -->
+    <link href="styles/normalize.css" rel="stylesheet"> <!-- normalize useragent/browser defaults -->
+    <link href="styles/main-mountain.css" rel="stylesheet">    <!-- default styles - small/phone views -->
+    <link href="styles/medium-mountain.css" rel="stylesheet">  <!-- medium/tablet views -->
+    <link href="styles/large-mountain.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC
+" rel="stylesheet"><!-- large/wide/desktop views --> 
+    <link href=" https://fonts.googleapis.com/css?family=Barlow" rel="stylesheet">
+    
+</head>
+<body>
+
+  <header>
+    <img src="images/LogoMakr_4QNPkO.png" alt="The site logo" width="50">
+    <h1>The Mountain Spoke</h1>
+    <div class="subheading">"Adventure of a Lifetime"</div>
+  <!-- site navigation use placeholder references -->
+  <nav>
+    <button onclick="toggleHam()">&#9776;</button>
+    <ul id="navigation" class="container">
+    	<li class="flexItem"><a href="mountain-spoke-home.html">Home</a></li>
+    	<li class="flexItem"><a href="tours.html">Tours</a></li>
+    	<li class="flexItem"><a href="events.html">Events</a></li>
+    	<li class="flexItem"><a href="sales.html">Sales</a></li>
+    	<li class="flexItem"><a href="service.html">Service</a></li>
+    	<li class="flexItem"><a href="contact.html">Contact Us</a></li>
+    </ul>
+  </nav>
+    </header>
+    <main>
+        <h2>Events of the Year</h2>
+        <img src="images/Cycle%20the.png" alt="divide event" width="100%">
+        <section id="sec1">
+            <p><b>Ride the the Longest Mountain Bike Trail Ever!</b></p>
+        <p>The GDMBR, developed and mapped in 1997 by the Adventure Cycling Association, is      approximately 2,700 miles long and is considered to be the birthplace of bikepacking as a sport. The route follows the Continental Divide and is 90% off-pavement using high-quality dirt roads, gravel roads, trails, and a few short sections of unmaintained tracks. Bikepacking the GDMBR requires only intermediate off-road mountain biking skills, but it is a painstaking test of endurance based on the sheer scale of the route, with over 200,000 feet (60,960 meters) of elevation gain and loss.
+        <br>
+        <br>
+            <b>You can register for this event here:</b>
+            </p>
+            <br>
+            <form>
+            First Name
+            <br>
+            <input type="text" name="firstname" min="5" required>
+            <br>
+            Last Name
+            <br>
+            <input type="text" name="lastname" min="5" required>
+            <br>
+            Email
+            <br>
+            <input type="email" placeholder="email@hotmail.com">
+            <br>
+            Phone Number
+            <br>
+            <input type="tel" required>
+            <br>
+            Country or State
+            <br>
+            <input type="text" name="country" min="4" required>
+            <br>
+            Birthday
+            <br>
+            <input type="date" name="bday" placeholder="01/23/1996">
+            <br>
+            Aditional Info and Comments
+            <br>
+            <textarea rows="10" cols="30"></textarea>
+            <br><br>
+            <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+    <footer class="footer">
+    <aside>
+        The Mountain Spoke
+        3950 Valley Commons Drive
+        Bozeman, MT 91762
+        (999)999-9999
+    </aside>
+      <p class="asideFooter">&copy;2018 All Rights Reserved | The Mountain Spoke |<span class="currentdate"></span></p>
+      <script src="script/currentdate.js"></script>
+  </footer>
+    <script src="script/hamburger-two.js"></script>
+    </body>
+</html>
