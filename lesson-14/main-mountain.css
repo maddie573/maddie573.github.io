@@ -1,0 +1,258 @@
+/* This main css file contains the default rules and is geared toward the small/phone view */
+
+* { box-sizing: border-box;}  /* This wildcard applies to all elements ensuring a box layout model */
+
+.container {
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+}
+
+body {
+    font-size: 16px;
+    color: #1C263C;
+    text-align: center;
+    font-family: 'barlow', sans-serif;
+}
+
+header, nav, main, footer {
+    max-width: 1500px;
+    min-width: 100px;
+    margin: 0 auto;
+}
+
+header {
+    background-color:#1C263C;
+    text-align: center;
+}
+header h1 { 
+    color: #9CFF00;
+    line-height: 1px;
+    font-size: 5rem;
+    font-family: 'amatic sc', cursive;
+}
+
+header img {
+    width: 10%;
+}
+header .subheading {
+    text-align: center;
+    padding: 5px;
+    color: #ffffff;
+    padding:15px;
+}
+
+
+
+ nav button {
+    display:block;
+    position:absolute;
+    top:1.0rem; 
+    right:1.35rem; 
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-size: 1.6rem;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    background-color:#B6C0D2;
+}
+
+nav ul li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #B6C0D2;
+}
+
+nav ul li a {
+    color: #1C263C;
+    text-decoration: none;
+    text-align: center;
+    padding: .8rem .8rem 2%;
+}
+
+nav ul li.active a {}
+
+nav ul li a:hover {
+    color: #9CFF00;
+    text-align: center;
+}
+
+nav ul.hide { display: none; }
+
+main section {
+    font-size: 1rem;
+}
+main h2, h3, h4 { 
+    color:#455268;
+    font-size: 3.5rem;
+    font-family: 'amatic SC', cursive;
+}
+
+main figure { margin: 0 0 .2rem 2%; width:96%; }
+main figure img { 
+    width: 100%;
+    margin: 2px;
+}
+
+section { background-color:#ffffff; }
+
+main section img { 
+    width: 100%;
+    padding: 10px;
+}
+
+.town-article {
+    overflow:auto;
+    padding:10px;
+}
+
+article p.town-article img {
+  width: 100%; 
+  margin: 0;
+  padding: 10px;
+}
+
+.footer {
+    display:flex;
+    flex-direction: column; 
+    justify-content: center;
+    background-color:#1C263C;
+    color:#ffffff;
+    padding:15px; 
+}
+
+.asideFooter {
+    display:flex;
+    background-color: #1C263C;
+    color: #ffffff;
+    flex-direction: column;
+    justify-content: center;
+    font-size: .9rem;
+    padding: 10px;
+    line-height: 1px;
+    
+}
+
+footer>p {}
+
+/* Gallery CSS Begins Here */ 
+.grid {
+    display:grid;
+    grid-auto-columns: 300px;
+    grid-row-gap: 1em;
+    margin: 30px;
+    padding: 30px;
+}
+
+.grid div {
+    border: 2px solid #ffffff;
+    border-radius: 3px;
+    background-color: #1C263C;
+    padding: 0;
+}
+
+
+/*Storm Center*/
+#button {
+    color:#c1d7ae;
+    
+}
+
+#sec1 {
+    padding: 50px;
+    margin: 20px;
+    font-size: 1.5rem;
+}
+
+#sec2 {
+    font-size:1.2rem;
+    
+}
+
+#sec3 p {
+  margin: 50px;
+}
+footer nav {
+    color: #ffffff;
+}
+table, caption, thead, tbody, tfoot, th, tr, td {
+            text-align: center;
+            font-family:'Barlow', sans-serif;
+            padding: 5px;
+        }
+        caption, tfoot {
+            background-color:#1C263C;
+            color: #9CFF00;
+            font-family: 'amatic SC', sans-serif;
+        }
+        
+        thead {
+            background-color:#ffffff;
+            color: #1C263C;
+            font-size: 1.5rem;
+        }
+        table td {
+            font-size: 1rem;
+            color: #1C263C;
+        }
+        tr:nth-child(even) {
+            background-color:#ffffff;
+            color: #1C263C;
+        }
+        tr:nth-child(3) {
+            background-color: #B6C0D2;
+        }
+        tr:nth-child(5) {
+            background-color: #B6C0D2;
+        }
+        tbody tr:nth-child(1) {
+            background-color: #B6C0D2; 
+        }
+        .reachedGoal {
+            background-color:#ffffff;
+            color: #1C263C;
+        }
+        caption {
+            font-size: 3rem;
+        }
+        tfoot {
+            font-size:.5em;
+}
+
+.navigation {
+	position: relative;
+	align-content: center;
+	padding: 30px;
+	margin: 0px;
+	font-family: 'Barlow', sans-serif;
+	text-shadow:0px 0px 1px rgba(0,0,0,0.2);
+	list-style: none;
+	top: -100px;
+	height: 97px;
+}
+
+.navigation > li {
+	position: relative;
+    align-content: center;
+	background: transparent;
+	width: 500px;
+	height: 50px;
+	padding: 60px;
+	margin-top: 2px;
+	left: -200px;
+	-webkit-transition: left 500ms;
+	   -moz-transition: left 500ms;
+	    -ms-transition: left 500ms;
+	     -o-transition: left 500ms;
+	        transition: left 500ms;
+}
+li.openSesame {
+	left:0px;
+}
+}
